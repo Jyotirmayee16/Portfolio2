@@ -196,21 +196,32 @@ header {
   }
 }
 
-.progress-line .html {
-  width: 80%;
+.progress-line .A {
+  width: 85%;
 }
-.progress-line .css {
+.progress-line .B {
   width: 70%;
 }
-.progress-line .bootstrap {
-  width: 50%;
+.progress-line .C {
+  width: 75%;
 }
-.progress-line .javascript {
-  width: 50%;
+.progress-line .D{
+  width: 70%;
 }
-.progress-line .c {
-  width: 50%;
+.progress-line .E{
+  width: 80%;
 }
+
+.progress-line .F {
+  width: 80%;
+}
+.progress-line .G {
+  width: 70%;
+}
+.progress-line .H {
+  width: 75%;
+}
+
 
 .bar .progress-line span::before {
   position: absolute;
@@ -238,21 +249,31 @@ header {
   border-radius: 3px;
 }
 
-.progress-line .html::after {
-  content: "80%";
+.progress-line .A::after {
+  content: "85%";
 }
-.progress-line .css::after {
+.progress-line .B::after {
   content: "70%";
 }
-.progress-line .bootstrap::after {
-  content: "50%";
+.progress-line .C::after {
+  content: "75%";
 }
-.progress-line .javascript::after {
-  content: "50%";
+.progress-line .D::after {
+  content: "70%";
 }
-.progress-line .c::after {
-  content: "50%";
+.progress-line .E::after {
+  content: "80%";
 }
+.progress-line .F::after {
+  content: "80%";
+}
+.progress-line .G::after {
+  content: "70%";
+}
+.progress-line .H::after {
+  content: "75%";
+}
+
 
 .navbar.solid {
   background-color: #07374a;
